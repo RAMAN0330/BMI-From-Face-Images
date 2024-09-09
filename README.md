@@ -173,18 +173,6 @@ There are two ways to setup and use this project.
    - Go to the recenly generate log file and follow the localhost link in that log file.
    **NOTE:** First prediction takes times. Beacuase it takes time gender_predictior module to get downloaded which is roughly 537MB in size.
 
-2) Using Docker Image.
-   
-   **Follow the below steps to use docker container**
-
-   - Type **docker pull amanvishwakarma1729/bmi_prediction_from_facial_images:latest**
-   - Type **docekr run -p 5000:5000 amanvishwakarma1729/bmi_prediction_using_facial_images:latest**
-   **NOTE:** 
-   - Till now this only works with upload image option.. will update it to work with capture Image method.
-   - First prediction takes times. Beacuase it takes time gender_predictior module to get downloaded which is roughly 537MB in size.
-
-
-## Database
 --------------
 The final BMI dataset is uploaded on **MongoDB**
 
